@@ -1,0 +1,571 @@
+* {
+    font-family:'Roboto', sans-serif;
+    color:#FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
+/* ----------------------------*/
+/*barra de navegacion oscura*/
+.header_top {
+    background-color: black;
+    color: white;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top_title {
+    font-size: 10px;
+    padding-left: 2rem;
+    align-self: center;
+}
+
+.header_top_selects {
+    padding-right: 3rem;
+}
+
+.select_option {
+    color: white;
+    border: 0;
+    white-space: unset;
+    background-color: initial;
+    font-size: 10px;
+    line-break: 0;
+}
+    /* Nav*/
+    nav {
+        display: flex;
+        height: 62px;
+        background: #43A0D0;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.7rem; 
+        
+    }
+    
+    nav i{
+        color: #F3F3F3;
+        font-size:0rem ;
+    }
+    
+    nav ul{ 
+        display: flex;
+        justify-content: space-between;
+        list-style: none; 
+        align-items: center;
+    }
+    
+    nav ul li{
+        margin: 0rem 0.5rem;
+    }
+    
+    nav img {
+        padding-left: 1rem;
+        width: 30%;
+    }
+/* ----------------------------*/
+/*seccion slide*/
+#slide {
+    display: flex;
+    background-image: url("img/fondopipa.jpg");
+    background-size:cover;
+    height: 70vh;
+    justify-content:center ;
+}
+
+.slide_text{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    margin:0.5rem;
+}
+#slide h2{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #1C2833;
+    font-size: 1rem;
+    padding: 0.5em 3em;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#slide p {
+    color:transparent;
+    
+}
+
+.comederos {
+    width: 141px;
+    height: 49px;
+    background: #43A0D0;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/*seccion productos destacados*/
+.cabecera{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.cabecera img {
+    width: 0%;
+}
+
+.cabecera h1 {
+    font-size: 2rem;
+    color: #1C2833;
+    font-weight: 700;
+}
+
+.cabecera ul {
+    display: flex;
+    justify-content:center;
+    list-style: none; /*para sacar los puntitos de la lista*/
+    align-items: center;
+
+}
+
+.cabecera ul li{
+    margin: 0rem 1rem;
+}
+.cabecera a {
+    text-decoration: none;
+    color: #43A0D0;
+    font-size: 1rem;      
+}
+.cabecera span {
+    color: #43A0D0;
+    font-size: 0.7rem;     
+}
+
+/* ----------------------------*/
+/*seccion cajas de productos*/
+.galeria_productos {
+    margin: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    background-color:#FBFAF6;
+}
+
+.producto_nombre {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #1C2833;
+}
+
+.producto_precio {
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    color:#43A0D0;
+    font-weight: 700;
+}
+
+/* ----------------------------*/
+/*seccion formulario*/
+.formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formulario_contacto h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1C2833;
+    margin-bottom: 0.5rem;
+}
+
+
+.mailform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailform input {
+    width: 340px;
+    height: 40px;
+    background: #1C2833;
+    border-radius: 15px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 0.6rem;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+
+.enviarelformulario {
+    margin-top:2rem ;
+}
+
+.resettoboton {
+    width: 110px;
+    height: 34px;
+    background: #8A8787;
+    border-radius: 15px;
+    border: none;
+    color: #F3F3F3;
+    font-size: 1rem;
+}
+
+.contactoboton {
+    width: 110px;
+    height: 34px;
+    background: #43A0D0;
+    border-radius: 15px;
+    border: none;
+    color: #F3F3F3;
+    font-size: 1rem;
+}
+
+/* ----------------------------*/
+/*barra de suscripcion*/
+.suscripcion {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #43A0D0;
+    margin-top: 4rem;
+
+}
+
+.suscripcion_barra img {
+    width: 0%;
+}
+
+.suscripcion_barra h3 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight:700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mailform2 {
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#email_usuario1 {
+    width: 271px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    font-size: 0.6rem;
+    color: #A0A0A0;
+    padding-left: 1rem;
+}
+
+.suscboton {
+    width: 150px;
+    height: 34px;
+    background: #1C2833;
+    border-radius: 15px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+/* ----------------------------*/
+/*footer*/
+footer {
+    align-items: center;
+    background-color: #1C2833;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+}
+.footer_info {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-left: 3rem;
+}
+.footer_info img {
+    width: 0%;
+}
+footer img {
+    align-content: center;
+}
+
+@media (min-width: 800px) {
+
+nav {
+    display: flex;
+    height: 62px;
+    background: #F0A83E;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 10px 20px 10px;    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+nav i{
+    color: #F3F3F3;
+    padding-right: 0.5em;
+    font-size: 1rem;
+}
+
+nav ul{ /*le digo que van a ser propiedades del ul dentro del nav*/
+    display: flex;
+    justify-content: space-between;
+    list-style: none; /*para sacar los puntitos de la lista*/
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 3em 0 3em;
+}
+
+nav img {
+    padding-left: 3em;
+    width: initial;
+}
+/* ----------------------------*/
+/*main*/
+
+/* ----------------------------*/
+/*seccion slide*/
+#slide {
+    display: flex;
+    background-image: url("img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 70vh;
+    justify-content:flex-end ;
+}
+
+.slide_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+}
+
+#slide h2{
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    color: #3C2313;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.5em 3em;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+#slide p {
+    color: #3C2313;
+    font-size: 16px;
+    text-align: center;
+    margin: 1em;
+}
+
+.comederos {
+    width: 141px;
+    height: 49px;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    color: #F3F3F3;
+    font-weight: bold;
+}
+
+
+
+/* ----------------------------*/
+/*seccion productos destacados*/
+
+
+.cabecera img {
+    width: initial;
+}
+
+.cabecera h1 {
+    font-size: 2.5rem;
+    color: #3C2313;
+}
+
+
+.cabecera ul li{
+    margin: 0 2em 0 2em;
+}
+.cabecera a {
+    text-decoration: none;
+    color: #666666;     
+}
+.cabecera span {
+    color: #666666;  
+}
+
+/* ----------------------------*/
+/*seccion cajas de productos*/
+.galeria_productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    background-color:#FBFAF6;
+}
+
+.producto_nombre {
+    color: #3C2313;
+}
+
+.producto_precio {
+    color:#F0A83E;
+}
+/* ----------------------------*/
+/*seccion formulario*/
+
+
+.formulario_contacto h2 {
+    color: #3C2313;
+
+}
+
+
+.mailform input {
+    background: #3C2313;
+    color: #FFFFFF;
+}
+
+
+.resettoboton {
+    background: #8A8787;
+    color: #F3F3F3;
+}
+
+.contactoboton {
+    background: #F0A83E;
+    color: #F3F3F3;
+}
+
+/* ----------------------------*/
+/*barra de suscripcion*/
+.suscripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: #F0A83E;
+    padding: 1rem;
+    margin-top: 4rem;
+
+}
+
+.suscripcion_barra{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.suscripcion_barra h3 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight:700;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.suscripcion_barra img {
+    width: initial;
+    margin-right: 1rem;
+}
+
+.mailform2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#email_usuario1 {
+    width: 271px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    margin-right: 0.5em;
+    font-size: 0.8rem;
+    color: #A0A0A0;
+    padding-left: 1em;
+}
+
+.suscboton {
+    width: 110px;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    border: none;
+    color:#FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-right: 2em;
+}
+
+/* ----------------------------*/
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    padding: 2em 4em 0 4em;
+}
+
+.footer_info img {
+    width: initial;
+    margin-right: 1rem;
+}
+}
